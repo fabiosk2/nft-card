@@ -8,40 +8,34 @@ body {
     color: hsl(0, 0%, 100%);
     font-family: 'Outfit', sans-serif;
     font-size: 18px;
-    margin-top: auto;
-    margin-bottom: auto;
     display: flex;
-    align-items: center;
     justify-content: center;
-}
 
-img {
-    width: 100%;
 }
-
 
 /* contenedor main */
 
 .container {
     border-radius: 0.5rem;
-    margin: 0 auto;
-    padding: 1.5rem;
-    max-width: 300px;
+    margin: auto;
+    padding: 1rem;
+    max-width: 280px;
+    max-height: 450px;
     background-color: hsl(216, 50%, 16%);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
 }
 
-.container__img {
-    margin-bottom: 1.4rem;
-    position: relative;
+.box_img img{
+    width: 250px;
+    height: 200px;
+    padding-top: 1rem;
 }
 
-.container__img img {
-    border-radius: 0.5rem;
-}
+
 
 
 a {
@@ -120,11 +114,6 @@ span {
     font-size: 16px;
 }
 
-main {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-}
 
 
 /* contenedor datos */
@@ -144,15 +133,7 @@ main {
     margin-right: 7px;
 }
 
-.moneda {
-    width: 50%;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    color: hsl(178, 100%, 50%);
-    font-size: 16px;
-    font-weight: 400;
-}
+
 
 .moneda img,
 .expiracion img,
